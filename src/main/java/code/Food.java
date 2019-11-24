@@ -1,0 +1,4 @@
+package code;
+
+interface Food {
+}

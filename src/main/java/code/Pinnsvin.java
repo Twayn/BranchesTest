@@ -3,7 +3,7 @@ package code;
 public class Pinnsvin implements Animal {
 	private String name;
 
-	public Pinnsvin(String name) {
+	Pinnsvin(String name) {
 		this.name = name;
 	}
 

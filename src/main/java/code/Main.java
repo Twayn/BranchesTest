@@ -3,10 +3,9 @@ package code;
 public class Main {
 	public static void main(String[] args) {
 		Bread chunk = new Bread(12);
-		Duck duck = new Duck("John");
-		duck.feed(chunk);
+		Duck john = new Duck("John");
+		john.feed(chunk);
 	}
-
 
 	static class Duck {
 		private final String name;
